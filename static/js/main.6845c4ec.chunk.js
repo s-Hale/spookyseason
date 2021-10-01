@@ -1,0 +1,2 @@
+(this.webpackJsonpspookyseason=this.webpackJsonpspookyseason||[]).push([[0],{11:function(n,e,s){"use strict";s.r(e);var t=s(1),o=s.n(t),c=s(3),r=s.n(c),i=(s(8),s.p,s(9),s(0));var a=function(){return Object(i.jsx)("div",{className:"App",children:"yo"})};r.a.render(Object(i.jsx)(o.a.StrictMode,{children:Object(i.jsx)(a,{})}),document.getElementById("root"))},8:function(n,e,s){},9:function(n,e,s){}},[[11,1,2]]]);
+//# sourceMappingURL=main.6845c4ec.chunk.js.map
