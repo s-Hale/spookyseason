@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Home from './pages/home/index'
 function App() {
   return (
-    <div className="App">
-     yo
+    <div className="App h-screen bg-purple-50">
+     <Home />
     </div>
   );
 }
