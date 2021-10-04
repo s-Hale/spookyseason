@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/spookyseason/static/css/main.8fd1dfd0.chunk.css",
-    "main.js": "/spookyseason/static/js/main.162d0ee3.chunk.js",
-    "main.js.map": "/spookyseason/static/js/main.162d0ee3.chunk.js.map",
+    "main.css": "/spookyseason/static/css/main.61f0c9d6.chunk.css",
+    "main.js": "/spookyseason/static/js/main.0cd61b8a.chunk.js",
+    "main.js.map": "/spookyseason/static/js/main.0cd61b8a.chunk.js.map",
     "runtime-main.js": "/spookyseason/static/js/runtime-main.21c20fb7.js",
     "runtime-main.js.map": "/spookyseason/static/js/runtime-main.21c20fb7.js.map",
     "static/js/2.6cc2f3fe.chunk.js": "/spookyseason/static/js/2.6cc2f3fe.chunk.js",
     "static/js/2.6cc2f3fe.chunk.js.map": "/spookyseason/static/js/2.6cc2f3fe.chunk.js.map",
     "index.html": "/spookyseason/index.html",
-    "static/css/main.8fd1dfd0.chunk.css.map": "/spookyseason/static/css/main.8fd1dfd0.chunk.css.map",
+    "static/css/main.61f0c9d6.chunk.css.map": "/spookyseason/static/css/main.61f0c9d6.chunk.css.map",
     "static/js/2.6cc2f3fe.chunk.js.LICENSE.txt": "/spookyseason/static/js/2.6cc2f3fe.chunk.js.LICENSE.txt",
     "static/media/003-leaves.b0ac6302.svg": "/spookyseason/static/media/003-leaves.b0ac6302.svg",
-    "static/media/006-magic-ball.a24b0e9f.svg": "/spookyseason/static/media/006-magic-ball.a24b0e9f.svg",
-    "static/media/007-moon.aa3449d2.svg": "/spookyseason/static/media/007-moon.aa3449d2.svg",
-    "static/media/cauldron.014cb613.svg": "/spookyseason/static/media/cauldron.014cb613.svg",
+    "static/media/006-magic-ball.f159250d.svg": "/spookyseason/static/media/006-magic-ball.f159250d.svg",
+    "static/media/007-moon.7d548310.svg": "/spookyseason/static/media/007-moon.7d548310.svg",
+    "static/media/cauldron.bdd83ee3.svg": "/spookyseason/static/media/cauldron.bdd83ee3.svg",
     "static/media/mortar.714f3459.svg": "/spookyseason/static/media/mortar.714f3459.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.21c20fb7.js",
     "static/js/2.6cc2f3fe.chunk.js",
-    "static/css/main.8fd1dfd0.chunk.css",
-    "static/js/main.162d0ee3.chunk.js"
+    "static/css/main.61f0c9d6.chunk.css",
+    "static/js/main.0cd61b8a.chunk.js"
   ]
 }
