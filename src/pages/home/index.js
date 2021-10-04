@@ -17,8 +17,8 @@ const Home = () => {
     return (
         <>
             <div className="font-josefin-sans flex flex-col h-60 justify-center items-center">Craft me a rite for...<UserInput /></div>
-            <div className="flex w-2/3 justify-between">
-                <Cauldron />
+            <div className="flex flex-col justify-between">
+                <Cauldron/>
                 <Mortar/>
                 <Ball />
                 <Herb />
