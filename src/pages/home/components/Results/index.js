@@ -9,7 +9,6 @@ const Results = ({ userPhrase }) => {
     const recommendedPhase = userPhrase ? phases.filter(phase => phase.properties.includes(userPhrase))[0]?.name : null;
     const recommendedHerbArray = herbs.filter(herb => herb.properties.includes(userPhrase));
     const recommendedCrystalArray = crystals.filter(crystal => crystal.properties.includes(userPhrase));
-console.log(recommendedHerbArray)
     return (
         <>
 
