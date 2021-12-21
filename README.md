@@ -1,1 +1,3 @@
-# gonna fix this branch thing
+# spooky season
+
+Hosted at: https://s-hale.github.io/spookyseason/
