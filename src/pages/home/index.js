@@ -1,34 +1,16 @@
-import React, {useState} from 'react'
-import UserInput from './components/UserInput/index'
-import Results from './components/Results/index.js'
+import React from 'react'
+import Cauldron from './../../svg/cauldron.svg'
 
-
-
-
-
-
-
-
-const Home = () => {
-    const [userPhrase, setUserPhrase] = useState('');
-
-
-
-
-
-    return (
+const Home = () =>(
         <>
-            <div className="font-josefin-sans flex flex-col h-60 justify-center items-center">
-                Craft me a rite for...
-                <UserInput setUserPhrase={setUserPhrase} />
-            </div>
-            <div className="flex flex-col justify-between">
-                <Results userPhrase={userPhrase}/>
 
+            <div className="flex flex-col items-center justify-center font-josefin-sans">
+            <img src={Cauldron} alt='cauldron'/>
+                <p>brewing something...</p>
             </div>
+
         </>
-    )
-};
+    );
 
 
 export default Home;
