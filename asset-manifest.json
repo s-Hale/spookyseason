@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/spookyseason/static/css/main.452c74e2.chunk.css",
-    "main.js": "/spookyseason/static/js/main.d4499b0e.chunk.js",
-    "main.js.map": "/spookyseason/static/js/main.d4499b0e.chunk.js.map",
+    "main.css": "/spookyseason/static/css/main.fbe431d8.chunk.css",
+    "main.js": "/spookyseason/static/js/main.e74b2cfd.chunk.js",
+    "main.js.map": "/spookyseason/static/js/main.e74b2cfd.chunk.js.map",
     "runtime-main.js": "/spookyseason/static/js/runtime-main.21c20fb7.js",
     "runtime-main.js.map": "/spookyseason/static/js/runtime-main.21c20fb7.js.map",
-    "static/js/2.8928f8f3.chunk.js": "/spookyseason/static/js/2.8928f8f3.chunk.js",
-    "static/js/2.8928f8f3.chunk.js.map": "/spookyseason/static/js/2.8928f8f3.chunk.js.map",
+    "static/js/2.6b546111.chunk.js": "/spookyseason/static/js/2.6b546111.chunk.js",
+    "static/js/2.6b546111.chunk.js.map": "/spookyseason/static/js/2.6b546111.chunk.js.map",
     "index.html": "/spookyseason/index.html",
-    "static/css/main.452c74e2.chunk.css.map": "/spookyseason/static/css/main.452c74e2.chunk.css.map",
-    "static/js/2.8928f8f3.chunk.js.LICENSE.txt": "/spookyseason/static/js/2.8928f8f3.chunk.js.LICENSE.txt"
+    "static/css/main.fbe431d8.chunk.css.map": "/spookyseason/static/css/main.fbe431d8.chunk.css.map",
+    "static/js/2.6b546111.chunk.js.LICENSE.txt": "/spookyseason/static/js/2.6b546111.chunk.js.LICENSE.txt",
+    "static/media/cauldron.bdd83ee3.svg": "/spookyseason/static/media/cauldron.bdd83ee3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.21c20fb7.js",
-    "static/js/2.8928f8f3.chunk.js",
-    "static/css/main.452c74e2.chunk.css",
-    "static/js/main.d4499b0e.chunk.js"
+    "static/js/2.6b546111.chunk.js",
+    "static/css/main.fbe431d8.chunk.css",
+    "static/js/main.e74b2cfd.chunk.js"
   ]
 }
