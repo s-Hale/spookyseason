@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import getFakeData from '../services/getFakeData'
-import Leaves from '../../svg/003-leaves.svg'
+import Filters from './components/Filters'
+
 
 const Home = () => {
     const [fakeData, setFakeData] = useState()
@@ -18,13 +19,17 @@ const Home = () => {
 
     return (
         <>
-            <div className="flex flex-col justify-center font-josefin-sans">
+            <Filters />
+            <div className="flex flex-col md:flex-wrap h-1/4 md:flex-row font-josefin-sans">
+
                 {fakeData.map(each =>
-                    <div className="p-3 m-2 border border-gray-400 rounded-xl">
-                      <div className="flex justify-end"><img src={Leaves} alt='leaves' className="w-12"/></div>
-                        <p>name: {each.name}</p>
-                        <p>method: {each.method}</p>
-                        <p>source: {each.source}</p>
+                    <div className="p-3 m-2 border border-gray-400 w-72 rounded-xl">
+                        <div className="flex justify-end">
+                            <img src={each.imageURL.default} alt='icon' className="w-12" />
+                        </div>
+                        <h6 className="text-xl text-green-900">{each.name}</h6>
+                        <p className="text-gray-700">method: {each.method}</p>
+                        <p className="text-sm italic text-gray-500">from: {each.source}</p>
                     </div>
                 )}
             </div>
