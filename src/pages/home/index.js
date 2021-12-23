@@ -5,20 +5,38 @@ import Filters from './components/Filters'
 
 const Home = () => {
     const [allData, setAllData] = useState()
+    const [filteredData, setFilteredData] = useState()
     const [loading, setLoading] = useState(true)
-    const [region, setRegion] = useState()
-    const [type, setType] = useState()
-    const [condition, setCondition] = useState()
+
+    const [region, setRegion] = useState('-1')
+    const [type, setType] = useState('-1')
+    const [condition, setCondition] = useState('-1')
+
+
+
 
     useEffect(() => {
         getFakeData()
             .then(res => {
                 setAllData(res)
+                setFilteredData(res)
                 setLoading(false)
             })
     }, []);
 
-    const noSearch = !condition && !type && !region;
+    useEffect(() => {
+        let midFilterData = allData;
+        if (condition !=='-1') {
+            midFilterData = midFilterData.filter(each => each.conditions.includes(condition))
+        }
+        if (region!=='-1') {
+            midFilterData = midFilterData.filter(each => each.region===region)
+        }
+        if (type!=='-1') {
+            midFilterData=midFilterData.filter(each => each.type===type)
+        }
+        setFilteredData(midFilterData)
+    },[condition, type, region])
 
     if (loading) return null;
 
@@ -26,7 +44,7 @@ const Home = () => {
         <>
             <Filters setRegion={setRegion} setType={setType} setCondition={setCondition}/>
             <div className="flex flex-col md:flex-wrap h-1/4 md:flex-row font-josefin-sans">
-                {allData.map(each =>
+                {filteredData.map(each =>
                     <div className="p-3 m-2 border border-gray-400 w-72 rounded-xl">
                         <div className="flex justify-end">
                             <img src={each.imageURL.default} alt='icon' className="w-12" />

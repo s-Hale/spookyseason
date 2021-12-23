@@ -6,6 +6,7 @@ const Filters = ({setRegion, setType, setCondition}) => {
     const conditionOptions = [
         {
             label: "Choose condition",
+            value: '-1'
           },
         {
           label: "Melancholy",
@@ -28,6 +29,7 @@ const Filters = ({setRegion, setType, setCondition}) => {
     const regionOptions = [
         {
             label: "Choose region",
+            value: '-1',
           },
         {
           label: "Scotland",
@@ -50,6 +52,7 @@ const Filters = ({setRegion, setType, setCondition}) => {
     const typeOptions = [
         {
             label: "Choose type",
+            value: '-1',
           },
         {
           label: "Tincture",
@@ -65,32 +68,37 @@ const Filters = ({setRegion, setType, setCondition}) => {
         },
     ];
 
-    const handleConditionChange = (e) => {
-        setCondition(e.target.value);
+    const handleFilterChange = (e, filterType) => {
+        switch (filterType) {
+            case "condition":
+                setCondition(e.target.value)
+                break;
+            case "region":
+                setRegion(e.target.value)
+                break;
+            case "type":
+                setType(e.target.value)
+                break;
+            default: break;
     }
-    const handleRegionChange = (e) => {
-        setRegion(e.target.value);
-    }
-    const handleTypeChange = (e) => {
-        setType(e.target.value);
-    }
+}
 
 
     return (
         <div className="flex flex-col w-2/3 py-1 md:w-1/2 md:flex-row md:justify-between">
 
-            <select onChange={handleConditionChange} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'condition')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {conditionOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
           </select>
-            <select onChange={handleRegionChange} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'region')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {regionOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
             </select>
 
-            <select onChange={handleTypeChange} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'type')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {typeOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
