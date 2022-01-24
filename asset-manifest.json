@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/spookyseason/static/css/main.fbe431d8.chunk.css",
-    "main.js": "/spookyseason/static/js/main.e2e4ed24.chunk.js",
-    "main.js.map": "/spookyseason/static/js/main.e2e4ed24.chunk.js.map",
+    "main.css": "/spookyseason/static/css/main.f7019d67.chunk.css",
+    "main.js": "/spookyseason/static/js/main.9014995e.chunk.js",
+    "main.js.map": "/spookyseason/static/js/main.9014995e.chunk.js.map",
     "runtime-main.js": "/spookyseason/static/js/runtime-main.21c20fb7.js",
     "runtime-main.js.map": "/spookyseason/static/js/runtime-main.21c20fb7.js.map",
-    "static/js/2.6b546111.chunk.js": "/spookyseason/static/js/2.6b546111.chunk.js",
-    "static/js/2.6b546111.chunk.js.map": "/spookyseason/static/js/2.6b546111.chunk.js.map",
+    "static/js/2.b7e4038d.chunk.js": "/spookyseason/static/js/2.b7e4038d.chunk.js",
+    "static/js/2.b7e4038d.chunk.js.map": "/spookyseason/static/js/2.b7e4038d.chunk.js.map",
     "index.html": "/spookyseason/index.html",
-    "static/css/main.fbe431d8.chunk.css.map": "/spookyseason/static/css/main.fbe431d8.chunk.css.map",
-    "static/js/2.6b546111.chunk.js.LICENSE.txt": "/spookyseason/static/js/2.6b546111.chunk.js.LICENSE.txt",
-    "static/media/cauldron.bdd83ee3.svg": "/spookyseason/static/media/cauldron.bdd83ee3.svg"
+    "static/css/main.f7019d67.chunk.css.map": "/spookyseason/static/css/main.f7019d67.chunk.css.map",
+    "static/js/2.b7e4038d.chunk.js.LICENSE.txt": "/spookyseason/static/js/2.b7e4038d.chunk.js.LICENSE.txt",
+    "static/media/003-leaves.svg": "/spookyseason/static/media/003-leaves.acb82371.svg",
+    "static/media/004-berries.svg": "/spookyseason/static/media/004-berries.de18e409.svg",
+    "static/media/005-herbs.svg": "/spookyseason/static/media/005-herbs.8a0376b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.21c20fb7.js",
-    "static/js/2.6b546111.chunk.js",
-    "static/css/main.fbe431d8.chunk.css",
-    "static/js/main.e2e4ed24.chunk.js"
+    "static/js/2.b7e4038d.chunk.js",
+    "static/css/main.f7019d67.chunk.css",
+    "static/js/main.9014995e.chunk.js"
   ]
 }
