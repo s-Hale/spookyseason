@@ -43,7 +43,7 @@ const Home = () => {
     return (
         <>
             <Filters setRegion={setRegion} setType={setType} setCondition={setCondition}/>
-            <div className="flex flex-col md:flex-wrap h-1/4 md:flex-row font-josefin-sans">
+            <div className="flex flex-col justify-center w-4/5 md:flex-wrap md:flex-row font-josefin-sans">
                 {filteredData.map(each =>
                     <div className="p-3 m-2 border border-gray-400 w-72 rounded-xl">
                         <div className="flex justify-end">
