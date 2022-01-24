@@ -1,12 +1,8 @@
-export default {
+module.exports = {
     "env": {
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -14,6 +10,7 @@ export default {
         "ecmaVersion": 13,
         "sourceType": "module"
     },
+    "parser": "babel-eslint",
     "plugins": [
         "react"
     ],

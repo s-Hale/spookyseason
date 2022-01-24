@@ -87,18 +87,18 @@ const Filters = ({setRegion, setType, setCondition}) => {
     return (
         <div className="flex flex-col w-2/3 py-1 md:w-1/2 md:flex-row md:justify-between">
 
-            <select onChange={(e) => handleFilterChange(e, 'condition')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'condition')} className="p-3 mx-2 my-0.5 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {conditionOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
           </select>
-            <select onChange={(e) => handleFilterChange(e, 'region')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'region')} className="p-3 mx-2 my-0.5 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {regionOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
             </select>
 
-            <select onChange={(e) => handleFilterChange(e, 'type')} className="p-2 mx-2 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
+            <select onChange={(e) => handleFilterChange(e, 'type')} className="p-3 mx-2 my-0.5 border border-gray-200 md:w-1/3 font-josefin-sans rounded-xl">
             {typeOptions.map((option) => (
               <option value={option.value}>{option.label}</option>
             ))}
